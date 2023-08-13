@@ -1,0 +1,255 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>时空的警告 - 时空循环：法西斯复兴、星球毁灭与恐龙时代的重生</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html"><strong aria-hidden="true">1.</strong> 封面</a></li><li class="chapter-item expanded "><a href="../结束前奏/index.html"><strong aria-hidden="true">2.</strong> 结束前奏</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../结束前奏/社会纷争.html"><strong aria-hidden="true">2.1.</strong> 社会纷争</a></li><li class="chapter-item expanded "><a href="../结束前奏/法西斯兴起.html"><strong aria-hidden="true">2.2.</strong> 法西斯兴起</a></li><li class="chapter-item expanded "><a href="../结束前奏/意识形态的冲击.html"><strong aria-hidden="true">2.3.</strong> 意识形态的冲击</a></li><li class="chapter-item expanded "><a href="../结束前奏/未来的阴云.html"><strong aria-hidden="true">2.4.</strong> 未来的阴云</a></li></ol></li><li class="chapter-item expanded "><a href="../核战开启/index.html"><strong aria-hidden="true">3.</strong> 核战开启</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../核战开启/核战引发因素.html"><strong aria-hidden="true">3.1.</strong> 核战引发因素</a></li><li class="chapter-item expanded "><a href="../核战开启/核战实况.html"><strong aria-hidden="true">3.2.</strong> 核战实况</a></li><li class="chapter-item expanded "><a href="../核战开启/核战后的世界.html"><strong aria-hidden="true">3.3.</strong> 核战后的世界</a></li></ol></li><li class="chapter-item expanded "><a href="../灰烬与新生/index.html"><strong aria-hidden="true">4.</strong> 灰烬与新生</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../灰烬与新生/生活在末世的人类.html"><strong aria-hidden="true">4.1.</strong> 生活在末世的人类</a></li><li class="chapter-item expanded "><a href="../灰烬与新生/在废墟中的希望.html"><strong aria-hidden="true">4.2.</strong> 在废墟中的希望</a></li><li class="chapter-item expanded "><a href="../灰烬与新生/重塑民族与秩序.html"><strong aria-hidden="true">4.3.</strong> 重塑民族与秩序</a></li><li class="chapter-item expanded "><a href="../灰烬与新生/人类中的新生力量.html"><strong aria-hidden="true">4.4.</strong> 人类中的新生力量</a></li></ol></li><li class="chapter-item expanded "><a href="../遗迹挖掘/index.html"><strong aria-hidden="true">5.</strong> 遗迹挖掘</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../遗迹挖掘/古代遗迹的发现.html"><strong aria-hidden="true">5.1.</strong> 古代遗迹的发现</a></li><li class="chapter-item expanded "><a href="../遗迹挖掘/神秘通道的探索.html"><strong aria-hidden="true">5.2.</strong> 神秘通道的探索</a></li><li class="chapter-item expanded "><a href="../遗迹挖掘/恐龙时代的连接.html"><strong aria-hidden="true">5.3.</strong> 恐龙时代的连接</a></li></ol></li><li class="chapter-item expanded "><a href="../迷失恐龙年代/index.html"><strong aria-hidden="true">6.</strong> 迷失恐龙年代</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../迷失恐龙年代/重返侏罗纪.html"><strong aria-hidden="true">6.1.</strong> 重返侏罗纪</a></li><li class="chapter-item expanded "><a href="../迷失恐龙年代/恐龙王国的真实.html"><strong aria-hidden="true">6.2.</strong> 恐龙王国的真实</a></li><li class="chapter-item expanded "><a href="../迷失恐龙年代/求生之道.html"><strong aria-hidden="true">6.3.</strong> 求生之道</a></li><li class="chapter-item expanded "><a href="../迷失恐龙年代/共生新纪元.html"><strong aria-hidden="true">6.4.</strong> 共生新纪元</a></li></ol></li><li class="chapter-item expanded "><a href="../外星联络/index.html"><strong aria-hidden="true">7.</strong> 外星联络</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../外星联络/跨越星际的和谐之音：人类与外星文明通过音乐实现沟通与理解.html"><strong aria-hidden="true">7.1.</strong> 跨越星际的和谐之音：人类与外星文明通过音乐实现沟通与理解</a></li><li class="chapter-item expanded "><a href="../外星联络/外星联络：四个阶段的交流与共生，人类与外星文明的教诲与警示.html"><strong aria-hidden="true">7.2.</strong> 外星联络：四个阶段的交流与共生，人类与外星文明的教诲与警示</a></li><li class="chapter-item expanded "><a href="../外星联络/外星联络.html"><strong aria-hidden="true">7.3.</strong> 外星联络</a></li><li class="chapter-item expanded "><a href="../外星联络/一段跨星际的友谊与合作，共同描绘新未来的画卷.html"><strong aria-hidden="true">7.4.</strong> 一段跨星际的友谊与合作，共同描绘新未来的画卷</a></li></ol></li><li class="chapter-item expanded "><a href="../外星文明的警示/index.html"><strong aria-hidden="true">8.</strong> 外星文明的警示</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../外星文明的警示/异界信息解读.html"><strong aria-hidden="true">8.1.</strong> 异界信息解读</a></li><li class="chapter-item expanded "><a href="../外星文明的警示/外星历史档案.html"><strong aria-hidden="true">8.2.</strong> 外星历史档案</a></li><li class="chapter-item expanded "><a href="../外星文明的警示/毁灭警示.html"><strong aria-hidden="true">8.3.</strong> 毁灭警示</a></li></ol></li><li class="chapter-item expanded "><a href="../人类的觉醒/index.html"><strong aria-hidden="true">9.</strong> 人类的觉醒</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../人类的觉醒/反思历史.html"><strong aria-hidden="true">9.1.</strong> 反思历史</a></li><li class="chapter-item expanded "><a href="../人类的觉醒/未来构想.html"><strong aria-hidden="true">9.2.</strong> 未来构想</a></li><li class="chapter-item expanded "><a href="../人类的觉醒/改变的初衷.html"><strong aria-hidden="true">9.3.</strong> 改变的初衷</a></li></ol></li><li class="chapter-item expanded "><a href="../重启文明/index.html"><strong aria-hidden="true">10.</strong> 重启文明</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../重启文明/基石铸成.html"><strong aria-hidden="true">10.1.</strong> 基石铸成</a></li><li class="chapter-item expanded "><a href="../重启文明/复苏的教育.html"><strong aria-hidden="true">10.2.</strong> 复苏的教育</a></li><li class="chapter-item expanded "><a href="../重启文明/全新政权.html"><strong aria-hidden="true">10.3.</strong> 全新政权</a></li></ol></li><li class="chapter-item expanded "><a href="../时空回响/index.html"><strong aria-hidden="true">11.</strong> 时空回响</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../时空回响/新的轮回启动.html"><strong aria-hidden="true">11.1.</strong> 新的轮回启动</a></li><li class="chapter-item expanded "><a href="../时空回响/新世界的发展.html"><strong aria-hidden="true">11.2.</strong> 新世界的发展</a></li><li class="chapter-item expanded "><a href="../时空回响/时空的警告.html" class="active"><strong aria-hidden="true">11.3.</strong> 时空的警告</a></li><li class="chapter-item expanded "><a href="../时空回响/回归与重生.html"><strong aria-hidden="true">11.4.</strong> 回归与重生</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">时空循环：法西斯复兴、星球毁灭与恐龙时代的重生</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="时空的警告"><a class="header" href="#时空的警告">时空的警告</a></h1>
+<h2 id="时空的警告-1"><a class="header" href="#时空的警告-1">时空的警告</a></h2>
+<p>在这个令人窒息的未来世界里，当大部分人都陷入焦虑和困顿之中时，一名名叫艾米的年轻科学家，偶然间却获得了一张神秘的地图。这张地图揭示出了一个关于未来的预示，展示了人类正遭受法西斯复兴和星球毁灭的威胁，以及一个与恐龙时代和外星球進化相连的时空循环。</p>
+<p>这张地图不仅引发了艾米的好奇心，也让我们开始思考：世界是否真的会像地图上描绘的一样，陷入一种似曾相识的漩涡循环呢？</p>
+<p>通过对过去历史的分析，我们不难发现，社会纷争和意识形态对于一个国家的发展起着至关重要的作用。历史上的法西斯兴起，正是因为社会纷争和意识形态的冲击所导致的。正是这些冲突，导致了社会秩序的崩塌，人们开始寻求一种强大的力量来解决问题。这时，法西斯主义悄然崛起，以其凌厉的手段吸引着被动和无助的人群。</p>
+<p>在未来的阴云之下，我们需要更加警醒，及时发现并解决社会纷争和意识形态的问题。不让这些问题演化成引起战争和毁灭的原因。只有这样，我们才能远离核战带来的恶果。</p>
+<p>核战爆发的因素和实况使得人们的生活进一步陷入绝望之中。我们可以想象，在核弹爆炸的那一刻，时间仿佛停止了。人们的家园被彻底破坏，生活变得一片废墟。在这片废墟中，人们只能依靠残存的资源和互助来维持生存。盖房、找食物、寻找安全的避难所，人类的生活陷入了一种持续的挣扎。</p>
+<p>但正是在废墟中的挣扎中，人类找到了新的希望。生活在末世的人类开始重新审视自己的人生和价值观，他们站起来与黑暗抗争，用他们的智慧和勇气筑起新的世界。他们利用残存的科技，探索未知的领域，试图重塑民族和秩序。</p>
+<p>在这个新的世界中，人类涌现出了许多新生力量。正是这些力量，使得人类在废墟中找到了新的希望。有的人拥有超越常人的智慧和技艺，有的人拥有强大的意志和毅力。他们团结在一起，共同追求一个共生新纪元的目标。</p>
+<p>当人类重新审视自己的历史和发展时，他们发现了古代遗迹的神秘和故事。这些古代遗迹的发现引发了对过去的思考和对未来的幻想。人们开始探索神秘通道，试图穿越时空回到恐龙年代，探索那个充满奇迹和危险的时代。</p>
+<p>进入恐龙年代，人们会发现自己置身于一个完全不同的世界。恐龙的霸权统治，令人畏惧和敬畏。人们必须学会适应环境，学会躲避恐龙的捕食，学会与恐龙和平共处。在这个共生新纪元中，人类和恐龙建立了一种全新的关系，他们相互依存，共同生活。</p>
+<p>当人类意识到自己并不是宇宙中唯一的存在时，他们开始与外星文明建立联系。通过外星联络，人类获得了前所未有的知识和技术。外星联络的第一节，第二节，第三节和第四节，揭示了人类与外星文明的交流与合作。人们意识到，外星文明不仅对人类的未来充满希望，而且也给出了一些警示。</p>
+<p>通过解读异界信息和外星历史档案，人们开始重新审视自己的行为和命运。他们意识到，人类所造成的毁灭正是来自于贪婪与欲望的膨胀，如果继续放任不管，将会带来更加严重的后果。</p>
+<p>在人类的觉醒和未来构想中，反思历史起到了至关重要的作用。反思历史可以让我们看到过去的错误和不足，以此为鉴，消除惯性的束缚。觉醒的启动正是从对过去的反思中延伸出来的，它是一种从潜意识到意识、从个体到群体的觉醒。当人们认识到自己的行为对他人、对社会以及对整个世界都有着深远的影响时，他们开始思考未来应该走向何方。</p>
+<p>在复苏的教育中，人类意识到教育对于重塑民族和秩序的重要性。教育应该从传统的知识灌输转变为培养人的创造力、拓宽他们的视野和培养他们的领导力。只有通过全新的教育模式，人类才能真正摆脱过去的束缚，迎接新的未来。</p>
+<p>而在这个全新政权中，人们将学会平等、友善和和谐相处。权力将不再集中在少数人手中，而是分散在每个人的手中。人们将以互帮互助的方式共同创造一个更加美好的社会。政治的透明和公正，让人类真正感受到了自由的力量。</p>
+<p>时空回响是一个永无止境的循环，一个全新世界的发展永远不会停止。当新的轮回启动时，人类需要保持警醒，可以凭借过去的经验和未来的构想来引领人类走向更好的未来。尽管时空的警告在每一个循环中不断出现，但只要人类保持警醒并且不断努力，我们就有机会回归和重生。</p>
+<p>在这无尽的时空循环中，人类终将找到回归本源和重生的路径。那时候，我们将能够拥抱一个真正意义上的新世界，一个没有恐惧和战争的新世界。这是一个遥远但令人向往的未来，值得我们为之奋斗。</p>
+<p>让我们共同努力，创造一个美好的未来吧！</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../时空回响/新世界的发展.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../时空回响/回归与重生.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../时空回响/新世界的发展.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../时空回响/回归与重生.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
